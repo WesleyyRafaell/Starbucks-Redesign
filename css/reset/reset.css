@@ -1,0 +1,14 @@
+*{
+	box-sizing: border-box;
+}
+@font-face {
+     font-family: SoinSans;
+     src: url('../../font/SoinSansNeue-Medium.otf');
+}
+body{
+	background-color: #F4F0EA;
+	margin: 0;
+	padding: 0;
+	
+	font-family: SoinSans, Arial, sans-serif;
+}

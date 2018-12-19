@@ -1,0 +1,144 @@
+.container-app{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.mobile-app > .img{
+ 	width: 250px;
+}
+
+
+.star-rewards > .title{
+	text-align: center; 
+	color: #333232;
+}
+
+.star-rewards > .title > .destaque{
+	color: #388A6B;
+}
+
+.step-item{
+	width: 90%;
+	display: flex;
+}
+
+.step-item > .icon{
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #388A6B;
+}
+
+.icon-item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	border: 1px solid #0000004d;
+	padding-top: 3px;
+	font-size: 16px;
+}
+
+.step-item{
+	margin-bottom: 20px;
+}
+.step-item > .txt{
+	width: 80%;
+}
+
+.step-item > .txt > .passo{
+	color: #0000004d;
+	margin: 5px 0;
+}
+
+.step-item > .txt > .descricao{
+	margin: 7px 0;
+	color: #333232;
+	font-size: 16px;
+}
+
+.step-item > .txt > .descricao >.destaque{
+	color: #388A6B;
+}
+
+.container-btn{
+	width: 90%;
+	margin: auto;
+}
+
+.button-social{
+	width: 200px;
+	height: 55px;
+	background-color: black;
+	color: #ffff;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	display: flex;
+	cursor: pointer;
+}
+
+.button-social > .icon{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.button-social > .icon > .img{
+	width: 33px;
+}
+
+.button-social > .txt{
+	width: 60%;
+	text-align: center;
+	color: #fff;
+	padding-top: 5px;
+}
+
+.button-social > .txt > .descricao{
+	margin: 0;
+}
+
+.button-social > .txt > .descricao > .destaque{
+	font-size: 25px;
+}
+
+.button-social > .txt > .descricao > .destaque-g{
+	font-size: 20px;
+}
+
+@media screen and (min-width: 1106px){
+	.container-app{
+		flex-direction: row;
+		padding-top: 80px;
+	}
+
+	.mobile-app{
+		margin-right: 40px;
+	}
+
+	.mobile-app > .img{
+	 	width: 350px;
+	}
+
+	.container-btn{
+		display: flex;
+	}
+
+	.button-social{
+		margin-right: 20px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.mobile-app{
+		margin-right: 80px;
+	}
+}

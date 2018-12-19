@@ -1,0 +1,86 @@
+@font-face {
+     font-family: SoinSans;
+     src: url('../../font/SoinSansNeue-Medium.otf');
+}
+
+.card-ofertas{
+	padding-left: 10px;
+	width: 375px;
+	margin: auto;
+	font-family: SoinSans, Arial, sans-serif;
+}
+.card-ofertas > .tituloPequeno{
+	font-variant: small-caps;
+	letter-spacing: 3px;
+	color: #8e8e8d;
+}
+
+.card-ofertas > .descricao{
+	color: #2D2D2D;
+	font-size: 30px;
+}
+
+.card-ofertas > .descricao > .destaque{
+	color: #388A6B;
+	margin-right: 10px;
+}
+
+
+.card-ofertas > .produtos{
+	color: #8e8e8d;
+	font-weight: bold;
+}
+
+.card-ofertas > .btn{
+	width: 150px;
+	height: 50px;
+	background-color: #388A6B;
+	cursor: pointer;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	font-family: SoinSans, Arial, sans-serif;
+}
+
+@media screen and (min-width: 531px){
+	.card-ofertas > .descricao{
+		font-size: 35px;
+	}
+}
+
+@media screen and (min-width: 700px){
+	.card-ofertas{
+		width: 50%;
+		height: 350px;
+	}
+
+	.card-ofertas > .descricao{
+		font-size: 40px;
+	}
+}
+
+@media screen and (min-width: 803px){
+	.card-ofertas{
+		width: 406px;
+	}
+	.card-ofertas > .descricao{
+		font-size: 45px;
+		margin: 20px 0;
+	}
+}
+
+@media screen and (min-width: 900px){
+	.card-ofertas{
+		width: 500px;
+	}
+
+	.card-ofertas > .descricao{
+		font-size: 50px;
+	}
+}
+
+@media screen and (min-width: 1056px){
+	.card-ofertas{
+		width: 600px;
+	}
+}

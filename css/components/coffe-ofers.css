@@ -1,0 +1,58 @@
+.coffe-ofers{
+	width: 100%;
+	padding-top: 40px;
+}
+
+.coffe-ofers > .title{
+	text-align: center;
+	color: #373737;
+}
+
+.container-coffers{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.coffers-item{
+	width: 337px;
+	height: 400px;
+	background-color: #ffff;
+	padding: 40px 40px 40px 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 21px 40px 21px;
+}
+
+
+.coffers-item > .imgcoffe{
+	width: 120px;
+}
+
+
+.coffers-item > .tamanho{
+	color: #C2C2C2;
+	margin: 10px 0;
+}
+
+.coffers-item > .produto{
+	color: #373737;
+	margin: 5px 0;
+}
+
+.coffers-item > .preco{
+	color: #388a6b;
+	font-size: 25px;
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+@media screen and (min-width: 900px){
+	.coffe-ofers > .title{
+		font-size: 30px;
+	}
+}

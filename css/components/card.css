@@ -1,0 +1,141 @@
+.containerFixo{
+	max-width: 574px;
+	margin: auto;
+}
+
+.card{
+	width: 90%;
+	margin: 30px auto;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	padding: 20px 40px 20px 20px;
+}
+
+.cardGrande{
+	height: 400px;
+	background-image: url(../../img/coffeCard.png);
+	background-repeat: no-repeat;
+	background-size: 250px;
+	background-position: 100% 60px;
+}
+
+.cardMedio{
+	height: 300px;
+	background-image: url(../../img/credcard.png);
+	background-repeat: no-repeat;
+	background-size: 250px;
+	background-position: 100% 0;
+}
+
+.cardPequeno{
+	width: 200px;
+	height: 200px;
+	background-image: url(../../img/grao.png);
+	background-repeat: no-repeat;
+	background-size: 100px;
+	background-position: 100% 0;
+}
+
+.cardExit{
+	background-color: rgba(56, 138, 107, 0.8);
+	background-image: url(../../img/logoGray.png);
+	background-repeat: no-repeat;
+	background-position: 100%;
+	background-size: 300px;
+}
+
+.card > .number{
+	color: #8e8e8d;
+	font-size: 30px;
+	
+}
+
+.cardGrande > .number{
+	margin-bottom: 200px;
+}
+
+.cardMedio > .number{
+	margin-bottom: 60px;
+}
+
+.cardPequeno > .number{
+	margin-bottom: 60px;
+}
+
+.cardPequeno > .number{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+.cardExit > .title{
+	color: #ffffff!important;
+}
+
+.card > .title{
+	color: #2D2D2D;
+}
+
+
+.card > .description{
+	color: #8e8e8d;
+}
+
+@media screen and (min-width: 569px){
+	.cardGrande{
+		width: 537px;
+		background-size: 260px;
+	}
+
+	.cardMedio{
+		height: 250px;
+		width: 537px;
+	}
+
+	.containerFlex{
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (min-width: 700px){
+	.cardGrande{
+		height: 530px;
+		padding: 20px 100px 20px 40px;
+		max-width: none;
+		background-size: 320px;
+	}
+
+	.cardPequeno{
+		height: 220px;
+	}
+
+	.card:not(.cardExit) > .number{
+		font-size: 40px;
+		
+	}
+
+	.cardExit{
+		padding-top: 35px;
+	}
+
+	.cardGrande > .number{
+		margin-bottom: 250px;
+	}
+
+
+}
+
+@media screen and (min-width: 1150px){
+	.container-cards{
+		max-width: 1149px;
+		margin: auto;
+	 	display: flex;
+	}
+}
+

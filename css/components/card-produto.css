@@ -1,0 +1,57 @@
+.card-produto{
+	width: 375px;
+	margin: 20px auto 0 auto;
+	height: 300px;
+	background-image: url(../../img/cappuccino.png);
+	background-size: 300px;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.card-produto > .btn{
+	width: 250px;
+	height: 100px;
+	background-color: #388A6B;
+	cursor: pointer;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	margin-right: 10px;
+	border-top: 5px solid #2b6d54; 
+	font-family: SoinSans, Arial, sans-serif;
+}
+
+
+@media screen and (min-width: 700px){
+	.card-produto{
+		width: 50%;
+		height: 450px;
+		background-position: 50px 0;
+	}
+}
+
+@media screen and (min-width: 803px){
+	.card-produto{
+		width: 406px;
+	}
+}
+
+@media screen and (min-width: 900px){
+	.card-produto{
+		width: 500px;
+	}
+}
+
+@media screen and (min-width: 1056px){
+	.card-produto{
+		background-size: 300px;
+		background-position: 50px 10px;
+	}
+
+	.card-produto > .btn{
+		width: 280px;
+		height: 120px;
+	}
+}

@@ -1,0 +1,178 @@
+.mapa-container{
+	width: 100%;
+	padding-top: 20px;
+}
+
+
+.contain-fixo{
+ 	width: 100%;
+ 	margin: auto;
+}
+
+
+.mapa-container > .title{
+	text-align: center;
+	margin-bottom: 20px;
+	color: #373737;
+}
+
+.mapa-container > .title > .destaque{
+	color: #388A6B;
+	margin-right: 10px;
+}
+
+.mapa-star{
+	width: 90%;
+	margin: auto;
+}
+
+.mapa-star > .img{
+	width: 100%;
+}
+
+.rodapeMapa{
+	width: 100%;
+	background-color: #3D7761;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0;
+}
+
+.rodapeMapa > .input-container{
+	width: 250px;
+	height: 40px;
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.input-container > .icon{
+	display: inline-block;
+	color: #999999;
+	font-size: 20px;
+	width: 20%;
+	height: 100%;
+	background-color: #e2e2e2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.input-container > .input{
+	width: 80%;
+	height: 100%;
+	border: 0;
+	background-color: #fff;
+	text-align: left;
+	font-weight: bold;
+}
+
+.inputmenor{
+	padding-left: 5px;
+	font-size: 15px;
+	color: #999999;
+}
+
+
+.menu-mapa{
+	width: 90%;
+	height: 281px;
+	margin: auto;
+	background-color: #378A6B;
+	overflow: scroll;
+}
+
+.menu-mapa > .cabecalho{
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #dddddd;
+	padding: 60px 20px;
+}
+
+
+.menu-mapa > .cabecalho > .title{
+	margin: 0;
+	color: #fff;
+	font-size: 25px;
+}
+
+.city-op{
+	width: 100%;
+	height: 100px;
+	color: #fff;
+	padding: 10px 20px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.city-op:hover{
+	background-color: #51987D;
+}
+
+.city-op > .title{
+	margin: 0;
+	font-size: 18px;
+}
+
+.city-op > .subtitle{
+	margin: 5px 0;
+	font-size: 15px;
+}
+
+.city-op > .time{
+	margin: 5px 0;
+	font-size: 12px;
+	color: #edeaea;
+}
+
+@media screen and (min-width: 900px){
+	.mapa-container{
+		padding-top: 40px;
+	}
+	.mapa-container > .title{
+		font-size: 30px;
+	}
+
+	.contain-fixo{
+	 	display: flex;
+	 	justify-content: center;
+	 	align-items: center;
+	}
+
+	.mapa-star{
+		width: 500px;
+		margin: 0;
+	}
+
+	.menu-mapa{
+		width: 270px;
+		height: 359px;
+		margin: 0;
+	}
+}
+
+
+@media screen and (min-width: 1150px){
+	.contain-fixo{
+		width: 1100px;
+	}
+	.mapa-star{
+		width: 75%;
+	}
+
+	.rodapeMapa{
+		padding-left: 40px;
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+
+	.rodapeMapa > .input-container{
+		margin-right: 40px;
+	}
+
+	.menu-mapa{
+		width: 25%;
+		height: 488px;
+	}
+}

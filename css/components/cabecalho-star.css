@@ -1,0 +1,100 @@
+.cabecalho-star{
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 0;
+	height: 200px;
+	border-bottom: 2px solid #ccc;
+}
+
+.cabecalho-star > .logo{
+	width: 60px;
+	margin-bottom: 10px;
+}
+
+.cabecalho-star > .link{
+	width: 130px;
+	height: 40px;
+	background-color: #f2efea;
+	border: 2px solid #eaeaea;
+	background-image: url(../../img/maps.png);
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: 15px 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 30px;
+	box-sizing: border-box;
+	color: #49302b;
+	border-radius: 2px;
+	margin-bottom: 10px;
+}
+
+.cabecalho-star > .button{
+	width: 125px;
+	height: 40px;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.cabecalho-star > .login{
+	background-color: #ffffff;
+	color: #49302b;
+	font-size: 15px;
+
+}
+
+.cabecalho-star > .login:hover{
+	background-color: #fff7f7;
+}
+
+.cabecalho-star > .cadastro{
+	background-color: #388A6B;
+	color: #ffffff;
+	font-size: 15px;
+}
+
+.cabecalho-star > .cadastro:hover{
+	background-color: #3b9371;
+}
+
+
+@media screen and (min-width: 700px){
+	.cabecalho-star{
+		flex-direction: row;
+		justify-content: space-around;
+		height: 90px;
+	}
+
+	.cabecalho-star > .link{
+		margin-right: 30%;
+		margin-bottom: 0;
+	}
+
+	.cabecalho-star > .logo{
+		margin-bottom: 0;
+	}
+
+	.cabecalho-star > .button{
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (min-width: 1000px){
+
+	.cabecalho-star > .link{
+		margin-right: 40%;
+	}
+}
+
+@media screen and (min-width: 1205px){
+
+	.cabecalho-star > .link{
+		margin-right: 60%;
+	}
+}
